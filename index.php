@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shah shahsatnam ji Girl School</title> <?php include('inc_include.php');?>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!-- start cssload-loader -->
@@ -25,7 +26,7 @@
     <section class="feature-area pb-90px">
       <div class="container">
         <div class="row feature-content-wrap">
-          <div class="col-lg-4 responsive-column-half">
+          <div class="col-lg-4 responsive-column-half"  data-aos="fade-up" data-aos-delay="150">
             <div class="info-box">
               <div class="info-overlay"></div>
               <div class="icon-element mx-auto shadow-sm">
@@ -80,7 +81,7 @@
             <!-- end info-box -->
           </div>
           <!-- end col-lg-3 -->
-          <div class="col-lg-4 responsive-column-half">
+          <div class="col-lg-4 responsive-column-half" data-aos="fade-up" data-aos-delay="250">
             <div class="info-box">
               <div class="info-overlay"></div>
               <div class="icon-element mx-auto shadow-sm">
@@ -98,7 +99,7 @@
             <!-- end info-box -->
           </div>
           <!-- end col-lg-3 -->
-          <div class="col-lg-4 responsive-column-half">
+          <div class="col-lg-4 responsive-column-half" data-aos="fade-up" data-aos-delay="350">
             <div class="info-box">
               <div class="info-overlay"></div>
               <div class="icon-element mx-auto shadow-sm">
@@ -134,7 +135,7 @@
     <section class="about-area  overflow-hidden">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">
             <div class="about-content pb-5">
               <div class="section-heading">
                 <h5 class="ribbon ribbon-lg mb-2">About us</h5>
@@ -153,9 +154,9 @@
             <!-- end about-content -->
           </div>
           <!-- end col-lg-6 -->
-          <div class="col-lg-6  ml-auto">
+          <div class="col-lg-6  ml-auto" data-aos="fade-left" data-aos-delay="350" data-aos-duration="1000">
             <div class="generic-img-box p-2 d-flex justify-content-center align-items-center">
-              <img src="images/religion/1.png" data-src="images/religion/principal.jpeg" alt="About image" class="img__item lazy">
+              <img src="images/religion/1.png" data-src="images/religion/1.jpg" style="min-height: 350px;" alt="About image" class="img__item lazy">
             </div>
             <!-- end generic-img-box -->
           </div>
@@ -180,7 +181,7 @@
         </div>
         <!-- end section-heading -->
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4"  data-aos="fade-up" data-aos-delay="350">
             <div class="new-block">
               <span class="new-leter">Latest News</span>
               <ul class="newsl-ul">
@@ -198,7 +199,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4"  data-aos="fade-up" data-aos-delay="450">
             <div class="new-block">
               <span class="new-leter">Events</span>
               <ul class="newsl-ul">
@@ -216,7 +217,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="550">
             <div class="new-block">
               <span class="new-leter">Knowledge Sharing Partners</span>
               <ul class="newsl-ul">
@@ -246,7 +247,8 @@
     <!--======================================
         START CATEGORY AREA
 ======================================-->
-<section class="category-area pb-90px">
+<section class="category-area pb-90px" data-aos="zoom-in"  data-aos-delay="650"
+    data-aos-duration="1000">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-9">
@@ -350,14 +352,14 @@
       <!--======================================
         START CATEGORY AREA
 ======================================-->
-      <section>
+      <section >
         <div class="container mt-5 mb-5">
           <div class="section-heading text-center">
-            <h2 class="section__title">Facilities</h2>
+            <h2 class="section__title" data-aos="zoom-out-up" data-aos-delay="50">Facilities</h2>
             <span class="section-divider"></span>
           </div>
           <div class="row">
-            <div class=" co-mahend widthcustom mt-5 mb-5">
+            <div class=" co-mahend widthcustom mt-5 mb-5" >
               <figure class="imag-effec">
                 <img src="images/home/1.png" class="img-responsive" alt="" style="width:270px!important;     height: 180px!important;">
               </figure>
@@ -465,7 +467,7 @@
                 <span class="section-divider"></span>
               </div>
               <div class="course-carousel owl-action-styled owl--action-styled">
-              <div class="card card-item">
+              <div class="card card-item" data-aos="fade-up" data-aos-delay="450"  data-aos-duration="1000">
                             <div class="card-image"><a href="#" class="d-block"><img class="card-img-top" src="images/award/1.png" alt="Card image cap"></a>
                                 <div class="course-badge-labels">
                                     <div class="course-badge">Best Educationist Award </div>
@@ -481,7 +483,7 @@
                             <!-- end card-body -->
                         </div>
                 <!-- end card -->
-                <div class="card card-item">
+                <div class="card card-item" data-aos="fade-up" data-aos-delay="650" data-aos-duration="1000">
                         <div class="card-image"><a href="#" class="d-block"><img class="card-img-top" src="images/award/2.png" alt="Card image cap"></a>
                             <div class="course-badge-labels">
                                 <div class="course-badge">Best Educationist Award </div>
@@ -497,7 +499,7 @@
                         <!-- end card-body -->
                     </div>
                 <!-- end card -->
-                <div class="card card-item">
+                <div class="card card-item" data-aos="fade-up" data-aos-delay="850" data-aos-duration="1000">
                         <div class="card-image"><a href="#" class="d-block"><img class="card-img-top" src="images/award/4.png" alt="Card image cap"></a>
                             <div class="course-badge-labels">
                                 <div class="course-badge">Best Educationist Award </div>
@@ -512,7 +514,7 @@
                         </div>
                         <!-- end card-body -->
                     </div>
-                    <div class="card card-item">
+                    <div class="card card-item"  data-aos="fade-up" data-aos-delay="450" data-aos-duration="1000">
                         <div class="card-image"><a href="#" class="d-block"><img class="card-img-top" src="images/award/5.png" alt="Card image cap"></a>
                             <div class="course-badge-labels">
                                 <div class="course-badge">Best Educationist Award </div>
@@ -565,6 +567,10 @@ END ABOUT AREA
       </div>
       <!-- end scroll top -->
       <!-- template js files --> <?php include('inc_footer.php');?>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
   </body>
   <!-- Mirrored from techydevs.com/demos/themes/html/aduca-demo/aduca/error.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Jun 2022 06:17:33 GMT -->
 </html>

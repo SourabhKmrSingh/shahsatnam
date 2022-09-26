@@ -4,23 +4,23 @@ class Database
 
 {
 
-	// private $db_host = "localhost";
+	private $db_host = "localhost";
 
-	// private $db_user = "root";
+	private $db_user = "root";
 
-	// private $db_pass = "";
+	private $db_pass = "";
 
-	// private $db_name = "shahsatnamji";
+	private $db_name = "shahsatnamji";
 
 	
 
-	private $db_host = "localhost";
+	// private $db_host = "localhost";
 
-	private $db_user = "neuronwebs_shahuser";
+	// private $db_user = "neuronwebs_shahuser";
 
-	private $db_pass = "owL[x@x{8P!l";
+	// private $db_pass = "owL[x@x{8P!l";
 
-	private $db_name = "neuronwebs_shahsatnam";
+	// private $db_name = "neuronwebs_shahsatnam";
 
 	
 

@@ -110,7 +110,7 @@
                           echo "active-1";
                       }
                       ?>">
-                        <a href="inspiration-vision-mission.php">Our Vision & Our Mission</a>
+                        <a href="inspiration-vision-mission.php">Our Vision Our Mission</a>
                       </li>
                       <li class="
 													
